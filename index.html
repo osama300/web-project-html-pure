@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Store</title>
+
+    <!-- Wow Slider CDN -->
+    <link rel="stylesheet" type="text/css" href="https://wowslider.com/sliders/demo-77/engine1/style.css" />
+    <script type="text/javascript" src="https://wowslider.com/sliders/demo-77/engine1/jquery.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Categories v</a>
+                <div class="dropdown-content">
+                    <a href="page2.html">SUVs</a>
+                    <a href="page3.html">Sedans</a>
+                    <a href="page4.html">Trucks</a>
+                </div>
+            </li>
+        </ul>
+        <button id="loginBtn">Login</button>
+    </nav>
+
+    <!-- Login popup -->
+    <div id="loginPopup" class="popup">
+        <form class="popup-content">
+            <span class="close">&times;</span>
+            <h3>Login</h3>
+            <label for="username">Username</label>
+            <input type="text" id="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <!-- Wow Slider Section -->
+    <section id="wowSlider">
+        <div id="wowslider-container1">
+            <div class="ws_images">
+                <ul>
+                    <li><img src="images (2).jpeg" alt="Car 1" id="SUV" title="Latest SUV Models"/></li>
+                    <li><img src="image (2).jpg" alt="Car 2" id="" title="Luxury Sedans"/></li>
+                    <li><img src="image 1.jpg" alt="Car 3" id="" title="Strong Trucks"/></li>
+                </ul>
+            </div>
+            <div class="ws_shadow"></div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview">
+        <h2>About Our Store</h2>
+        <p>Welcome to our car store. We offer a wide range of vehicles, from SUVs to luxury sedans and powerful trucks. Explore our collection and find the perfect car for you.</p>
+    </section>
+
+    <!-- Additional Content Section -->
+    <section id="featured">
+        <div class="grid">
+            <h2>Featured Cars</h2>
+                
+            <div class="car-item">
+                <img src="images/CAR1.jpg" alt="Featured Car 1">
+                <p><strong>Model:</strong> Toyota Highlander 2023</p>
+                <p><strong>Price:</strong> $40,000</p>
+            </div>
+            <div class="car-item">
+                <img src="images/car2.jpg" alt="Featured Car 2">
+                <p><strong>Model:</strong> Tesla Model S</p>
+                <p><strong>Price:</strong> $80,000</p>
+            </div>
+            <div class="car-item">
+                <img src="images/car1.jpg" alt="Featured Car 3">
+                <p><strong>Model:</strong> Ford F-150</p>
+                <p><strong>Price:</strong> $50,000</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="featured">
+        <div class="grid">
+            <h2>for you</h2>
+                
+            <div class="car-item">
+                <img src="images/CAR1.jpg" alt="Featured Car 1">
+                <p><strong>Model:</strong> Toyota Highlander 2023</p>
+                <p><strong>Price:</strong> $40,000</p>
+            </div>
+            <div class="car-item">
+                <img src="images/car2.jpg" alt="Featured Car 2">
+                <p><strong>Model:</strong> Tesla Model S</p>
+                <p><strong>Price:</strong> $80,000</p>
+            </div>
+            <div class="car-item">
+                <img src="images/car1.jpg" alt="Featured Car 3">
+                <p><strong>Model:</strong> Ford F-150</p>
+                <p><strong>Price:</strong> $50,000</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="special">
+        <div class="card">
+            <img src="images/car1.jpg" alt="specail Car">
+            <div class="description">
+                <p><strong>Model:</strong> Ford F-150</p>
+                <p><strong>Price:</strong> $50,000</p>
+                <p>
+                    <strong>category:</strong>
+                    <span class="cat">SUV</span>
+                    <span class="cat">family car</span>
+                    <span class="cat"> top 10</span>
+                </p>
+            </div>
+        </div>
+        <table border="1">
+            <tr>
+                <th>Feature</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Engine</td>
+                <td>V6</td>
+            </tr>
+            <tr>
+                <td>Seats</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Drive</td>
+                <td>4WD</td>
+            </tr>
+        </table>
+    </section>
+    <!-- Footer -->
+    <footer>
+        
+            <section>
+                <h3 class="contact">Leave a Review</h3>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <textarea placeholder="Your Comment" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+            <br>
+        <p>Contact us: info@carstore.com | Phone: +123456789</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

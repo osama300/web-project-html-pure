@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedans - Car Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Categories v</a>
+                <div class="dropdown-content">
+                    <a href="page2.html">SUVs</a>
+                    <a href="page3.html">Sedans</a>
+                    <a href="page4.html">Trucks</a>
+                </div>
+            </li>
+        </ul>
+        <button id="loginBtn">Login</button>
+    </nav>
+
+    <!-- Sedans Section -->
+    <section id="sedans">
+        <h2>Our Sedan Collection</h2>
+    <div class="grid">
+        <div class="car-item">
+            <img src="images/car1.jpg" alt="Sedan 1">
+            <p><strong>Model:</strong> Mercedes-Benz E-Class</p>
+            <p><strong>Price:</strong> $75,000</p>
+        </div>
+
+        <div class="car-item">
+            <img src="images/car1.jpg" alt="Sedan 1">
+            <p><strong>Model:</strong> Mercedes-Benz E-Class</p>
+            <p><strong>Price:</strong> $75,000</p>
+        </div>
+
+        <div class="car-item">
+            <img src="images/car1.jpg" alt="Sedan 1">
+            <p><strong>Model:</strong> Mercedes-Benz E-Class</p>
+            <p><strong>Price:</strong> $75,000</p>
+        </div>
+
+        <div class="car-item">
+            <img src="images/car1.jpg" alt="Sedan 1">
+            <p><strong>Model:</strong> Mercedes-Benz E-Class</p>
+            <p><strong>Price:</strong> $75,000</p>
+        </div>
+
+        <div class="car-item">
+            <img src="images/car1.jpg" alt="Sedan 1">
+            <p><strong>Model:</strong> Mercedes-Benz E-Class</p>
+            <p><strong>Price:</strong> $75,000</p>
+        </div>
+        <div class="car-item">
+            <img src="images/car2.jpg" alt="Sedan 2">
+            <p><strong>Model:</strong> BMW 5 Series</p>
+            <p><strong>Price:</strong> $70,000</p>
+        </div>
+        <div class="car-item">
+            <img src="images/car1.jpg" alt="Sedan 3">
+            <p><strong>Model:</strong> Audi A6</p>
+            <p><strong>Price:</strong> $68,000</p>
+        </div>
+    </div>    
+    </section>
+
+    <!-- Table -->
+    <section>
+        <h3>Compare Sedan Models</h3>
+        <table border="1">
+            <tr>
+                <th>Model</th>
+                <th>Price</th>
+                <th>Engine</th>
+                <th>Horsepower</th>
+                <th>view car</th>
+            </tr>
+            <tr>
+                <td>Mercedes-Benz E-Class</td>
+                <td>$75,000</td>
+                <td>3.0L V6</td>
+                <td>362 HP</td>
+                <td>
+                    <a href="#car">
+                        <button class="btn">
+                            view car
+                        </button>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>BMW 5 Series</td>
+                <td>$70,000</td>
+                <td>2.0L I4</td>
+                <td>248 HP</td>
+                <td>
+                    <a href="#car">
+                        <button class="btn">
+                            view car
+                        </button>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>Audi A6</td>
+                <td>$68,000</td>
+                <td>3.0L V6</td>
+                <td>335 HP</td>
+                <td>
+                    <a href="#car">
+                        <button class="btn">
+                            view car
+                        </button>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+
+
+    <!-- Comment Form -->
+    <section>
+        <h3>Leave a Review</h3>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <textarea placeholder="Your Comment" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us: info@carstore.com | Phone: +123456789</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
